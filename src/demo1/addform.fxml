@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="demo1.AddformController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="236.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phong 401" wrappingWidth="128.3671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtId" layoutX="56.0" layoutY="109.0" promptText="ID" />
+      <TextField fx:id="txtName" layoutX="56.0" layoutY="169.0" promptText="Name" />
+      <TextField fx:id="txtEmail" layoutX="56.0" layoutY="226.0" promptText="Email" />
+      <TextField fx:id="txtDate" layoutX="56.0" layoutY="282.0" promptText="Date" />
+
+      <TextField fx:id="txtTel" layoutX="49.0" layoutY="331.0" promptText="Tel" />
+      <Button onAction="#submit" layoutX="346.0" layoutY="331.0" mnemonicParsing="false" text="Submit" />
+      <Button onAction="#backList" layoutX="49.0" layoutY="38.0" mnemonicParsing="false" text="Back to List" />
+   </children>
+</Pane>
