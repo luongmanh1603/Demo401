@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="demo1.RoomController">
+   <children>
+      <TableView fx:id="tbR" layoutX="140.0" layoutY="57.0" prefHeight="200.0" prefWidth="447.0">
+        <columns>
+          <TableColumn fx:id="tcID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="tcName" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="tcEmail" prefWidth="75.0" text="Email" />
+            <TableColumn fx:id="tcDate" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="tcTel" prefWidth="75.0" text="Tel" />
+            <TableColumn fx:id="tcEit" prefWidth="75.0" text="Edit" />
+        </columns>
+      </TableView>
+      <Button layoutX="268.0" layoutY="296.0" mnemonicParsing="false" onAction="#gotoFormAdd" text="GOTO ADD" />
+   </children>
+</Pane>
